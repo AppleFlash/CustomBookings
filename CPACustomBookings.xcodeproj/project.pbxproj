@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F505564D1CD12E9A0048C1E8 /* DriverPending.xib in Resources */ = {isa = PBXBuildFile; fileRef = F505564C1CD12E9A0048C1E8 /* DriverPending.xib */; };
+		F505564F1CD13A990048C1E8 /* DriverNow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F505564E1CD13A990048C1E8 /* DriverNow.xib */; };
+		F57F98961CD2036A003C8F07 /* PaxRequestTo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98951CD2036A003C8F07 /* PaxRequestTo.xib */; };
+		F57F98981CD2044F003C8F07 /* PaxTooLate.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98971CD2044F003C8F07 /* PaxTooLate.xib */; };
+		F57F989D1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */; };
+		F57F989E1CD204DF003C8F07 /* PassengerBookingXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */; };
+		F57F98A31CD20680003C8F07 /* PaxApprovedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A21CD20680003C8F07 /* PaxApprovedView.m */; };
+		F57F98A61CD206A9003C8F07 /* PaxNowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A51CD206A9003C8F07 /* PaxNowView.m */; };
+		F57F98A91CD206DE003C8F07 /* PaxPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A81CD206DE003C8F07 /* PaxPendingView.m */; };
+		F57F98AC1CD206F0003C8F07 /* PaxRequestToView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98AB1CD206F0003C8F07 /* PaxRequestToView.m */; };
+		F57F98AF1CD20705003C8F07 /* PaxTooLateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98AE1CD20705003C8F07 /* PaxTooLateView.m */; };
+		F57F98B11CD20930003C8F07 /* PaxCanceledOrFinished.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98B01CD20930003C8F07 /* PaxCanceledOrFinished.xib */; };
+		F57F98B41CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98B31CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m */; };
+		F57F98B61CD2153C003C8F07 /* MainBook.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98B51CD2153C003C8F07 /* MainBook.xib */; };
+		F57F98B91CD23499003C8F07 /* HomeToWorkView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98B81CD23499003C8F07 /* HomeToWorkView.m */; };
+		F57F98BC1CD234C8003C8F07 /* WorkToHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98BB1CD234C8003C8F07 /* WorkToHomeView.m */; };
+		F58466F11CD0D5ED007DC06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F01CD0D5ED007DC06A /* main.m */; };
+		F58466F41CD0D5ED007DC06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F31CD0D5ED007DC06A /* AppDelegate.m */; };
+		F58466F71CD0D5ED007DC06A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F61CD0D5ED007DC06A /* ViewController.m */; };
+		F58466FA1CD0D5ED007DC06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58466F81CD0D5ED007DC06A /* Main.storyboard */; };
+		F58466FC1CD0D5ED007DC06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58466FB1CD0D5ED007DC06A /* Assets.xcassets */; };
+		F58466FF1CD0D5ED007DC06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58466FD1CD0D5ED007DC06A /* LaunchScreen.storyboard */; };
+		F58467101CD0D6D5007DC06A /* DriverBooking.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58467091CD0D6D5007DC06A /* DriverBooking.xib */; };
+		F58467111CD0D6D5007DC06A /* FindDriver.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670A1CD0D6D5007DC06A /* FindDriver.xib */; };
+		F58467121CD0D6D5007DC06A /* HomeToWork.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670B1CD0D6D5007DC06A /* HomeToWork.xib */; };
+		F58467131CD0D6D5007DC06A /* PassengerBooking.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */; };
+		F58467141CD0D6D5007DC06A /* SearchDriver.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670D1CD0D6D5007DC06A /* SearchDriver.xib */; };
+		F58467151CD0D6D5007DC06A /* TooLate.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670E1CD0D6D5007DC06A /* TooLate.xib */; };
+		F58467161CD0D6D5007DC06A /* WorkToHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670F1CD0D6D5007DC06A /* WorkToHome.xib */; };
+		F584671A1CD0D787007DC06A /* DriverApproved.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58467191CD0D786007DC06A /* DriverApproved.xib */; };
+		F58467201CD0DA73007DC06A /* SFUIText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671C1CD0DA68007DC06A /* SFUIText-Bold.otf */; };
+		F58467211CD0DA75007DC06A /* SFUIText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671D1CD0DA68007DC06A /* SFUIText-Light.otf */; };
+		F58467221CD0DA77007DC06A /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671E1CD0DA68007DC06A /* SFUIText-Medium.otf */; };
+		F58467231CD0DA7A007DC06A /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671F1CD0DA68007DC06A /* SFUIText-Regular.otf */; };
+		F5AEA6761CD27E2500F69BD2 /* BuilderButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */; };
+		F5C394701CD13E2100493D1C /* DriverCancelled.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */; };
+		F5C394741CD1468A00493D1C /* PaxNow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394731CD1468A00493D1C /* PaxNow.xib */; };
+		F5C394761CD146A400493D1C /* PaxApproved.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394751CD146A400493D1C /* PaxApproved.xib */; };
+		F5C394781CD1488700493D1C /* PaxPending.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394771CD1488700493D1C /* PaxPending.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F505564C1CD12E9A0048C1E8 /* DriverPending.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverPending.xib; path = Views/XIBs/DriverXibs/DriverPending.xib; sourceTree = "<group>"; };
+		F505564E1CD13A990048C1E8 /* DriverNow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverNow.xib; path = Views/XIBs/DriverXibs/DriverNow.xib; sourceTree = "<group>"; };
+		F57F98951CD2036A003C8F07 /* PaxRequestTo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxRequestTo.xib; path = Views/XIBs/PaxXibs/PaxRequestTo.xib; sourceTree = "<group>"; };
+		F57F98971CD2044F003C8F07 /* PaxTooLate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxTooLate.xib; path = Views/XIBs/PaxXibs/PaxTooLate.xib; sourceTree = "<group>"; };
+		F57F98991CD204DF003C8F07 /* PassengerBookingXibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibTableViewCell.h; path = Views/PassengerBookingXibTableViewCell.h; sourceTree = "<group>"; };
+		F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibTableViewCell.m; path = Views/PassengerBookingXibTableViewCell.m; sourceTree = "<group>"; };
+		F57F989B1CD204DF003C8F07 /* PassengerBookingXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibViewController.h; path = Views/PassengerBookingXibViewController.h; sourceTree = "<group>"; };
+		F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibViewController.m; path = Views/PassengerBookingXibViewController.m; sourceTree = "<group>"; };
+		F57F98A11CD20680003C8F07 /* PaxApprovedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxApprovedView.h; path = Views/PaxViews/PaxApprovedView.h; sourceTree = "<group>"; };
+		F57F98A21CD20680003C8F07 /* PaxApprovedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxApprovedView.m; path = Views/PaxViews/PaxApprovedView.m; sourceTree = "<group>"; };
+		F57F98A41CD206A9003C8F07 /* PaxNowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxNowView.h; path = Views/PaxViews/PaxNowView.h; sourceTree = "<group>"; };
+		F57F98A51CD206A9003C8F07 /* PaxNowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxNowView.m; path = Views/PaxViews/PaxNowView.m; sourceTree = "<group>"; };
+		F57F98A71CD206DE003C8F07 /* PaxPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxPendingView.h; path = Views/PaxViews/PaxPendingView.h; sourceTree = "<group>"; };
+		F57F98A81CD206DE003C8F07 /* PaxPendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxPendingView.m; path = Views/PaxViews/PaxPendingView.m; sourceTree = "<group>"; };
+		F57F98AA1CD206F0003C8F07 /* PaxRequestToView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxRequestToView.h; path = Views/PaxViews/PaxRequestToView.h; sourceTree = "<group>"; };
+		F57F98AB1CD206F0003C8F07 /* PaxRequestToView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxRequestToView.m; path = Views/PaxViews/PaxRequestToView.m; sourceTree = "<group>"; };
+		F57F98AD1CD20705003C8F07 /* PaxTooLateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxTooLateView.h; path = Views/PaxViews/PaxTooLateView.h; sourceTree = "<group>"; };
+		F57F98AE1CD20705003C8F07 /* PaxTooLateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxTooLateView.m; path = Views/PaxViews/PaxTooLateView.m; sourceTree = "<group>"; };
+		F57F98B01CD20930003C8F07 /* PaxCanceledOrFinished.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxCanceledOrFinished.xib; path = Views/XIBs/PaxXibs/PaxCanceledOrFinished.xib; sourceTree = "<group>"; };
+		F57F98B21CD20A3E003C8F07 /* PaxCanceledOrFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxCanceledOrFinishedView.h; path = Views/PaxViews/PaxCanceledOrFinishedView.h; sourceTree = "<group>"; };
+		F57F98B31CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxCanceledOrFinishedView.m; path = Views/PaxViews/PaxCanceledOrFinishedView.m; sourceTree = "<group>"; };
+		F57F98B51CD2153C003C8F07 /* MainBook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainBook.xib; path = Views/XIBs/MainBook.xib; sourceTree = "<group>"; };
+		F57F98B71CD23499003C8F07 /* HomeToWorkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeToWorkView.h; path = Views/HomeToWorkView.h; sourceTree = "<group>"; };
+		F57F98B81CD23499003C8F07 /* HomeToWorkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeToWorkView.m; path = Views/HomeToWorkView.m; sourceTree = "<group>"; };
+		F57F98BA1CD234C8003C8F07 /* WorkToHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkToHomeView.h; path = Views/WorkToHomeView.h; sourceTree = "<group>"; };
+		F57F98BB1CD234C8003C8F07 /* WorkToHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkToHomeView.m; path = Views/WorkToHomeView.m; sourceTree = "<group>"; };
+		F58466EC1CD0D5ED007DC06A /* CPACustomBookings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPACustomBookings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58466F01CD0D5ED007DC06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58466F21CD0D5ED007DC06A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F58466F31CD0D5ED007DC06A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F58466F51CD0D5ED007DC06A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F58466F61CD0D5ED007DC06A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F58466F91CD0D5ED007DC06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58466FB1CD0D5ED007DC06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58466FE1CD0D5ED007DC06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58467001CD0D5ED007DC06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58467091CD0D6D5007DC06A /* DriverBooking.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverBooking.xib; path = Views/XIBs/Unuable/DriverBooking.xib; sourceTree = "<group>"; };
+		F584670A1CD0D6D5007DC06A /* FindDriver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FindDriver.xib; path = Views/XIBs/Unuable/FindDriver.xib; sourceTree = "<group>"; };
+		F584670B1CD0D6D5007DC06A /* HomeToWork.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeToWork.xib; path = Views/XIBs/Unuable/HomeToWork.xib; sourceTree = "<group>"; };
+		F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PassengerBooking.xib; path = Views/XIBs/Unuable/PassengerBooking.xib; sourceTree = "<group>"; };
+		F584670D1CD0D6D5007DC06A /* SearchDriver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchDriver.xib; path = Views/XIBs/Unuable/SearchDriver.xib; sourceTree = "<group>"; };
+		F584670E1CD0D6D5007DC06A /* TooLate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TooLate.xib; path = Views/XIBs/Unuable/TooLate.xib; sourceTree = "<group>"; };
+		F584670F1CD0D6D5007DC06A /* WorkToHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkToHome.xib; path = Views/XIBs/Unuable/WorkToHome.xib; sourceTree = "<group>"; };
+		F58467191CD0D786007DC06A /* DriverApproved.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverApproved.xib; path = Views/XIBs/DriverXibs/DriverApproved.xib; sourceTree = "<group>"; };
+		F584671C1CD0DA68007DC06A /* SFUIText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Bold.otf"; path = "Fonts/SFUIText-Bold.otf"; sourceTree = "<group>"; };
+		F584671D1CD0DA68007DC06A /* SFUIText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Light.otf"; path = "Fonts/SFUIText-Light.otf"; sourceTree = "<group>"; };
+		F584671E1CD0DA68007DC06A /* SFUIText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Medium.otf"; path = "Fonts/SFUIText-Medium.otf"; sourceTree = "<group>"; };
+		F584671F1CD0DA68007DC06A /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Regular.otf"; path = "Fonts/SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		F5AEA6741CD27E2500F69BD2 /* BuilderButtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuilderButtomView.h; path = Views/PaxViews/BottomViewBuilder/BuilderButtomView.h; sourceTree = "<group>"; };
+		F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuilderButtomView.m; path = Views/PaxViews/BottomViewBuilder/BuilderButtomView.m; sourceTree = "<group>"; };
+		F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverCancelled.xib; path = Views/XIBs/DriverXibs/DriverCancelled.xib; sourceTree = "<group>"; };
+		F5C394731CD1468A00493D1C /* PaxNow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxNow.xib; path = Views/XIBs/PaxXibs/PaxNow.xib; sourceTree = "<group>"; };
+		F5C394751CD146A400493D1C /* PaxApproved.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxApproved.xib; path = Views/XIBs/PaxXibs/PaxApproved.xib; sourceTree = "<group>"; };
+		F5C394771CD1488700493D1C /* PaxPending.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxPending.xib; path = Views/XIBs/PaxXibs/PaxPending.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58466E91CD0D5ED007DC06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57F989F1CD20529003C8F07 /* BookingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F57F989B1CD204DF003C8F07 /* PassengerBookingXibViewController.h */,
+				F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */,
+			);
+			name = BookingControllers;
+			sourceTree = "<group>";
+		};
+		F57F98A01CD2064A003C8F07 /* PaxViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5AEA6701CD27D6000F69BD2 /* BottomViewBuilder */,
+				F57F98A11CD20680003C8F07 /* PaxApprovedView.h */,
+				F57F98A21CD20680003C8F07 /* PaxApprovedView.m */,
+				F57F98A41CD206A9003C8F07 /* PaxNowView.h */,
+				F57F98A51CD206A9003C8F07 /* PaxNowView.m */,
+				F57F98A71CD206DE003C8F07 /* PaxPendingView.h */,
+				F57F98A81CD206DE003C8F07 /* PaxPendingView.m */,
+				F57F98AA1CD206F0003C8F07 /* PaxRequestToView.h */,
+				F57F98AB1CD206F0003C8F07 /* PaxRequestToView.m */,
+				F57F98AD1CD20705003C8F07 /* PaxTooLateView.h */,
+				F57F98AE1CD20705003C8F07 /* PaxTooLateView.m */,
+				F57F98B21CD20A3E003C8F07 /* PaxCanceledOrFinishedView.h */,
+				F57F98B31CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m */,
+			);
+			name = PaxViews;
+			sourceTree = "<group>";
+		};
+		F58466E31CD0D5ED007DC06A = {
+			isa = PBXGroup;
+			children = (
+				F58466EE1CD0D5ED007DC06A /* CPACustomBookings */,
+				F58466ED1CD0D5ED007DC06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58466ED1CD0D5ED007DC06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58466EC1CD0D5ED007DC06A /* CPACustomBookings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58466EE1CD0D5ED007DC06A /* CPACustomBookings */ = {
+			isa = PBXGroup;
+			children = (
+				F584671B1CD0D955007DC06A /* Fonts */,
+				F57F989F1CD20529003C8F07 /* BookingControllers */,
+				F58467061CD0D6B8007DC06A /* Views */,
+				F58466F21CD0D5ED007DC06A /* AppDelegate.h */,
+				F58466F31CD0D5ED007DC06A /* AppDelegate.m */,
+				F58466F51CD0D5ED007DC06A /* ViewController.h */,
+				F58466F61CD0D5ED007DC06A /* ViewController.m */,
+				F58466F81CD0D5ED007DC06A /* Main.storyboard */,
+				F58466FB1CD0D5ED007DC06A /* Assets.xcassets */,
+				F58466FD1CD0D5ED007DC06A /* LaunchScreen.storyboard */,
+				F58467001CD0D5ED007DC06A /* Info.plist */,
+				F58466EF1CD0D5ED007DC06A /* Supporting Files */,
+			);
+			path = CPACustomBookings;
+			sourceTree = "<group>";
+		};
+		F58466EF1CD0D5ED007DC06A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58466F01CD0D5ED007DC06A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F58467061CD0D6B8007DC06A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F57F98A01CD2064A003C8F07 /* PaxViews */,
+				F57F98991CD204DF003C8F07 /* PassengerBookingXibTableViewCell.h */,
+				F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */,
+				F57F98B71CD23499003C8F07 /* HomeToWorkView.h */,
+				F57F98B81CD23499003C8F07 /* HomeToWorkView.m */,
+				F57F98BA1CD234C8003C8F07 /* WorkToHomeView.h */,
+				F57F98BB1CD234C8003C8F07 /* WorkToHomeView.m */,
+				F58467071CD0D6C0007DC06A /* XIBs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F58467071CD0D6C0007DC06A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F58467181CD0D764007DC06A /* PaxXibs */,
+				F58467171CD0D75A007DC06A /* DriverXibs */,
+				F58467081CD0D6C8007DC06A /* Unusable */,
+				F57F98B51CD2153C003C8F07 /* MainBook.xib */,
+				F584670B1CD0D6D5007DC06A /* HomeToWork.xib */,
+				F584670F1CD0D6D5007DC06A /* WorkToHome.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		F58467081CD0D6C8007DC06A /* Unusable */ = {
+			isa = PBXGroup;
+			children = (
+				F58467091CD0D6D5007DC06A /* DriverBooking.xib */,
+				F584670A1CD0D6D5007DC06A /* FindDriver.xib */,
+				F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */,
+				F584670D1CD0D6D5007DC06A /* SearchDriver.xib */,
+				F584670E1CD0D6D5007DC06A /* TooLate.xib */,
+			);
+			name = Unusable;
+			sourceTree = "<group>";
+		};
+		F58467171CD0D75A007DC06A /* DriverXibs */ = {
+			isa = PBXGroup;
+			children = (
+				F58467191CD0D786007DC06A /* DriverApproved.xib */,
+				F505564C1CD12E9A0048C1E8 /* DriverPending.xib */,
+				F505564E1CD13A990048C1E8 /* DriverNow.xib */,
+				F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */,
+			);
+			name = DriverXibs;
+			sourceTree = "<group>";
+		};
+		F58467181CD0D764007DC06A /* PaxXibs */ = {
+			isa = PBXGroup;
+			children = (
+				F5C394751CD146A400493D1C /* PaxApproved.xib */,
+				F5C394731CD1468A00493D1C /* PaxNow.xib */,
+				F5C394771CD1488700493D1C /* PaxPending.xib */,
+				F57F98951CD2036A003C8F07 /* PaxRequestTo.xib */,
+				F57F98971CD2044F003C8F07 /* PaxTooLate.xib */,
+				F57F98B01CD20930003C8F07 /* PaxCanceledOrFinished.xib */,
+			);
+			name = PaxXibs;
+			sourceTree = "<group>";
+		};
+		F584671B1CD0D955007DC06A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F584671C1CD0DA68007DC06A /* SFUIText-Bold.otf */,
+				F584671D1CD0DA68007DC06A /* SFUIText-Light.otf */,
+				F584671E1CD0DA68007DC06A /* SFUIText-Medium.otf */,
+				F584671F1CD0DA68007DC06A /* SFUIText-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F5AEA6701CD27D6000F69BD2 /* BottomViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F5AEA6741CD27E2500F69BD2 /* BuilderButtomView.h */,
+				F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */,
+			);
+			name = BottomViewBuilder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58466EB1CD0D5ED007DC06A /* CPACustomBookings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58467031CD0D5ED007DC06A /* Build configuration list for PBXNativeTarget "CPACustomBookings" */;
+			buildPhases = (
+				F58466E81CD0D5ED007DC06A /* Sources */,
+				F58466E91CD0D5ED007DC06A /* Frameworks */,
+				F58466EA1CD0D5ED007DC06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPACustomBookings;
+			productName = CPACustomBookings;
+			productReference = F58466EC1CD0D5ED007DC06A /* CPACustomBookings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58466E41CD0D5ED007DC06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Vlad;
+				TargetAttributes = {
+					F58466EB1CD0D5ED007DC06A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F58466E71CD0D5ED007DC06A /* Build configuration list for PBXProject "CPACustomBookings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58466E31CD0D5ED007DC06A;
+			productRefGroup = F58466ED1CD0D5ED007DC06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58466EB1CD0D5ED007DC06A /* CPACustomBookings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58466EA1CD0D5ED007DC06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C394781CD1488700493D1C /* PaxPending.xib in Resources */,
+				F58467221CD0DA77007DC06A /* SFUIText-Medium.otf in Resources */,
+				F58466FF1CD0D5ED007DC06A /* LaunchScreen.storyboard in Resources */,
+				F58467111CD0D6D5007DC06A /* FindDriver.xib in Resources */,
+				F505564D1CD12E9A0048C1E8 /* DriverPending.xib in Resources */,
+				F57F98B11CD20930003C8F07 /* PaxCanceledOrFinished.xib in Resources */,
+				F58467201CD0DA73007DC06A /* SFUIText-Bold.otf in Resources */,
+				F58467121CD0D6D5007DC06A /* HomeToWork.xib in Resources */,
+				F58467141CD0D6D5007DC06A /* SearchDriver.xib in Resources */,
+				F5C394741CD1468A00493D1C /* PaxNow.xib in Resources */,
+				F58467211CD0DA75007DC06A /* SFUIText-Light.otf in Resources */,
+				F57F98981CD2044F003C8F07 /* PaxTooLate.xib in Resources */,
+				F57F98961CD2036A003C8F07 /* PaxRequestTo.xib in Resources */,
+				F58467151CD0D6D5007DC06A /* TooLate.xib in Resources */,
+				F58466FC1CD0D5ED007DC06A /* Assets.xcassets in Resources */,
+				F58467131CD0D6D5007DC06A /* PassengerBooking.xib in Resources */,
+				F5C394701CD13E2100493D1C /* DriverCancelled.xib in Resources */,
+				F58466FA1CD0D5ED007DC06A /* Main.storyboard in Resources */,
+				F5C394761CD146A400493D1C /* PaxApproved.xib in Resources */,
+				F57F98B61CD2153C003C8F07 /* MainBook.xib in Resources */,
+				F58467231CD0DA7A007DC06A /* SFUIText-Regular.otf in Resources */,
+				F58467161CD0D6D5007DC06A /* WorkToHome.xib in Resources */,
+				F505564F1CD13A990048C1E8 /* DriverNow.xib in Resources */,
+				F584671A1CD0D787007DC06A /* DriverApproved.xib in Resources */,
+				F58467101CD0D6D5007DC06A /* DriverBooking.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58466E81CD0D5ED007DC06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57F989D1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m in Sources */,
+				F57F98B91CD23499003C8F07 /* HomeToWorkView.m in Sources */,
+				F57F989E1CD204DF003C8F07 /* PassengerBookingXibViewController.m in Sources */,
+				F5AEA6761CD27E2500F69BD2 /* BuilderButtomView.m in Sources */,
+				F58466F71CD0D5ED007DC06A /* ViewController.m in Sources */,
+				F58466F41CD0D5ED007DC06A /* AppDelegate.m in Sources */,
+				F57F98BC1CD234C8003C8F07 /* WorkToHomeView.m in Sources */,
+				F57F98A91CD206DE003C8F07 /* PaxPendingView.m in Sources */,
+				F57F98AF1CD20705003C8F07 /* PaxTooLateView.m in Sources */,
+				F57F98AC1CD206F0003C8F07 /* PaxRequestToView.m in Sources */,
+				F57F98B41CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m in Sources */,
+				F58466F11CD0D5ED007DC06A /* main.m in Sources */,
+				F57F98A61CD206A9003C8F07 /* PaxNowView.m in Sources */,
+				F57F98A31CD20680003C8F07 /* PaxApprovedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58466F81CD0D5ED007DC06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58466F91CD0D5ED007DC06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58466FD1CD0D5ED007DC06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58466FE1CD0D5ED007DC06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58467011CD0D5ED007DC06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58467021CD0D5ED007DC06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58467041CD0D5ED007DC06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CPACustomBookings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.CPACustomBookings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F58467051CD0D5ED007DC06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CPACustomBookings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.CPACustomBookings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58466E71CD0D5ED007DC06A /* Build configuration list for PBXProject "CPACustomBookings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58467011CD0D5ED007DC06A /* Debug */,
+				F58467021CD0D5ED007DC06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58467031CD0D5ED007DC06A /* Build configuration list for PBXNativeTarget "CPACustomBookings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58467041CD0D5ED007DC06A /* Debug */,
+				F58467051CD0D5ED007DC06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58466E41CD0D5ED007DC06A /* Project object */;
+}
