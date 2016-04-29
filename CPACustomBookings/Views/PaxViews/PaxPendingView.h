@@ -6,9 +6,10 @@
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "BuilderButtomView.h"
+#import "BuilderView.h"
 
-@interface PaxPendingView : BuilderButtomView
+@interface PaxPendingView : BuilderView
+
+- (IBAction)cancelAction:(id)sender;
 
 @end

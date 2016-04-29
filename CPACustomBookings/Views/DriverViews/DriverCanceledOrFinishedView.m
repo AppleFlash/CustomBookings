@@ -1,58 +1,49 @@
 //
-//  ApprovedView.m
+//  DriverCanceledOrFinishedView.m
 //  CPACustomBookings
 //
-//  Created by Vlad on 28.04.16.
+//  Created by Vlad on 29.04.16.
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import "PaxApprovedView.h"
+#import "DriverCanceledOrFinishedView.h"
 
-@interface PaxApprovedView ()
+@interface DriverCanceledOrFinishedView ()
 
-@property (weak, nonatomic) IBOutlet BuilderView *bottomView;
+@property (weak, nonatomic) IBOutlet DriverBuilderView *bottomView;
 @property (weak, nonatomic) IBOutlet UIImageView *avatarImage;
-@property (weak, nonatomic) IBOutlet UIImageView *likeImage;
 @property (weak, nonatomic) IBOutlet UIImageView *priceImage;
-@property (weak, nonatomic) IBOutlet UIView *ratingView;
-@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detourLabel;
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
 
-@implementation PaxApprovedView
+@implementation DriverCanceledOrFinishedView
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-}
-
-- (BuilderView *)getBottomView {
-    return _bottomView;
-}
-
-- (void)setName:(NSString *)name {
-    _nameLabel.text = name;
 }
 
 - (void)setAvatarURL:(NSURL *)avatarURL {
     
 }
 
-- (void)setIsFavorite:(BOOL)isFavorite {
-    _likeImage.hidden = isFavorite;
-}
-
-- (void)setRating:(float)rating {
-    
-}
-
-- (void)setDate:(NSString *)date {
-    _dateLabel.text = date;
+- (void)setDetour:(NSString *)detour {
+    _detourLabel.text = [NSString stringWithFormat:@"Detour: %@min", detour];
 }
 
 - (void)setPrice:(NSString *)price {
     [self writeTextWithString:price];
+}
+
+- (void)setName:(NSString *)name {
+    _nameLabel.text = name;
+}
+
+- (void)setStatus:(NSString *)status {
+    _statusLabel.text = status;
 }
 
 - (void)writeTextWithString:(NSString *)pastString {
@@ -66,11 +57,8 @@
     [_priceLabel setAttributedText:string];
 }
 
-- (IBAction)cancelAction:(id)sender {
-    NSLog(@"CLICK TO CANCEL ON APPROVE!");
+- (DriverBuilderView *)getBottomView {
+    return _bottomView;
 }
 
-- (IBAction)chatAction:(id)sender {
-    NSLog(@"CLICK TO CHAT ON APPROVE!");
-}
 @end

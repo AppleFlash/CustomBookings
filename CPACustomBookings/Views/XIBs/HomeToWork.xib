@@ -11,6 +11,14 @@
             <rect key="frame" x="0.0" y="0.0" width="84" height="45"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y5G-gW-g7L">
+                    <rect key="frame" x="0.0" y="10" width="25" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="R1k-mB-sDL"/>
+                        <constraint firstAttribute="height" constant="25" id="sDg-eZ-612"/>
+                    </constraints>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bod-zT-deQ">
                     <rect key="frame" x="30" y="13" width="25" height="20"/>
                     <color key="backgroundColor" red="0.79607850309999995" green="0.90980398650000005" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
@@ -19,17 +27,9 @@
                         <constraint firstAttribute="height" constant="20" id="uS2-mH-lIN"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y5G-gW-g7L">
-                    <rect key="frame" x="0.0" y="10" width="25" height="25"/>
-                    <color key="backgroundColor" red="0.80000000000000004" green="0.81960784310000001" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="25" id="R1k-mB-sDL"/>
-                        <constraint firstAttribute="height" constant="25" id="sDg-eZ-612"/>
-                    </constraints>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7nM-LG-vf1">
                     <rect key="frame" x="59" y="14" width="25" height="17"/>
-                    <color key="backgroundColor" red="0.76862745099999996" green="0.43529411759999997" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="25" id="6E3-uR-oF6"/>
                         <constraint firstAttribute="height" constant="17" id="vo2-ue-vMC"/>

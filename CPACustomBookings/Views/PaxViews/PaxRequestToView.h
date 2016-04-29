@@ -6,8 +6,11 @@
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BuilderView.h"
 
-@interface PaxRequestToView : UIView
+@interface PaxRequestToView : BuilderView
+
+
+- (IBAction)requestAction:(id)sender;
 
 @end

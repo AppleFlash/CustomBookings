@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PassengerBookingXibViewController.h"
-#import "BuilderButtomView.h"
+#import "BuilderView.h"
 
 typedef enum {
     PassengerCellTypeFindDriver,
@@ -27,8 +26,16 @@ typedef enum {
 
 @interface PassengerBookingXibTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) BuilderButtomView *builderBottomView;
+@property (nonatomic, strong) BuilderView *builderView;
 @property (nonatomic, assign) PassengerCellType cellType;
 @property (nonatomic, assign) RideToType rideType;
+
+@property (strong, nonatomic) NSURL *avatarURL;
+//@property (weak, nonatomic) UIImageView *priceImage;
+@property (assign, nonatomic) BOOL isFavorite;
+@property (assign, nonatomic) float rating;
+@property (strong, nonatomic) NSString *date;
+@property (strong, nonatomic) NSString *price;
+@property (strong, nonatomic) NSString *name;
 
 @end

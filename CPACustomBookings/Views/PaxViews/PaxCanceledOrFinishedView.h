@@ -6,9 +6,8 @@
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "BuilderButtomView.h"
+#import "BuilderView.h"
 
-@interface PaxCanceledOrFinishedView : BuilderButtomView
+@interface PaxCanceledOrFinishedView : BuilderView
 
 @end

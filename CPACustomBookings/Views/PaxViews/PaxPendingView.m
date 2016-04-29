@@ -10,7 +10,8 @@
 
 @interface PaxPendingView ()
 
-@property (weak, nonatomic) IBOutlet BuilderButtomView *bottomView;
+@property (weak, nonatomic) IBOutlet BuilderView *bottomView;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
 @end
 
@@ -20,8 +21,15 @@
     [super awakeFromNib];
 }
 
-- (BuilderButtomView *)getBottomView {
+- (BuilderView *)getBottomView {
     return _bottomView;
 }
 
+- (void)setDate:(NSString *)date {
+    _dateLabel.text = date;
+}
+
+- (IBAction)cancelAction:(id)sender {
+    NSLog(@"CLICK CANCEL IN PENDING!");
+}
 @end

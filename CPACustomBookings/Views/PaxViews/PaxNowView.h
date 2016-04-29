@@ -6,9 +6,12 @@
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "BuilderButtomView.h"
+#import "BuilderView.h"
 
-@interface PaxNowView : BuilderButtomView
+@interface PaxNowView : BuilderView
+
+
+- (IBAction)seeDriverAction:(id)sender;
+- (IBAction)cancelAction:(id)sender;
 
 @end

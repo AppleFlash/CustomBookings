@@ -1,16 +1,18 @@
 //
-//  ApprovedView.h
+//  DriverApprovedView.h
 //  CPACustomBookings
 //
-//  Created by Vlad on 28.04.16.
+//  Created by Vlad on 29.04.16.
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import "BuilderView.h"
+#import "DriverBuilderView.h"
 
-@interface PaxApprovedView : BuilderView
+@interface DriverApprovedView : DriverBuilderView
 
 - (IBAction)cancelAction:(id)sender;
 - (IBAction)chatAction:(id)sender;
+
+
 
 @end

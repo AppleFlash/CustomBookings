@@ -6,8 +6,8 @@
 //  Copyright © 2016 Vlad. All rights reserved.
 //
 
-#import "BuilderButtomView.h"
+#import "BuilderView.h"
 
-@implementation BuilderButtomView
+@implementation BuilderView
 
 @end

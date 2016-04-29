@@ -11,8 +11,6 @@
 		F505564F1CD13A990048C1E8 /* DriverNow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F505564E1CD13A990048C1E8 /* DriverNow.xib */; };
 		F57F98961CD2036A003C8F07 /* PaxRequestTo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98951CD2036A003C8F07 /* PaxRequestTo.xib */; };
 		F57F98981CD2044F003C8F07 /* PaxTooLate.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98971CD2044F003C8F07 /* PaxTooLate.xib */; };
-		F57F989D1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */; };
-		F57F989E1CD204DF003C8F07 /* PassengerBookingXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */; };
 		F57F98A31CD20680003C8F07 /* PaxApprovedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A21CD20680003C8F07 /* PaxApprovedView.m */; };
 		F57F98A61CD206A9003C8F07 /* PaxNowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A51CD206A9003C8F07 /* PaxNowView.m */; };
 		F57F98A91CD206DE003C8F07 /* PaxPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98A81CD206DE003C8F07 /* PaxPendingView.m */; };
@@ -20,29 +18,32 @@
 		F57F98AF1CD20705003C8F07 /* PaxTooLateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98AE1CD20705003C8F07 /* PaxTooLateView.m */; };
 		F57F98B11CD20930003C8F07 /* PaxCanceledOrFinished.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98B01CD20930003C8F07 /* PaxCanceledOrFinished.xib */; };
 		F57F98B41CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98B31CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m */; };
-		F57F98B61CD2153C003C8F07 /* MainBook.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57F98B51CD2153C003C8F07 /* MainBook.xib */; };
 		F57F98B91CD23499003C8F07 /* HomeToWorkView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98B81CD23499003C8F07 /* HomeToWorkView.m */; };
 		F57F98BC1CD234C8003C8F07 /* WorkToHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F98BB1CD234C8003C8F07 /* WorkToHomeView.m */; };
 		F58466F11CD0D5ED007DC06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F01CD0D5ED007DC06A /* main.m */; };
 		F58466F41CD0D5ED007DC06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F31CD0D5ED007DC06A /* AppDelegate.m */; };
-		F58466F71CD0D5ED007DC06A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58466F61CD0D5ED007DC06A /* ViewController.m */; };
 		F58466FA1CD0D5ED007DC06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58466F81CD0D5ED007DC06A /* Main.storyboard */; };
 		F58466FC1CD0D5ED007DC06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58466FB1CD0D5ED007DC06A /* Assets.xcassets */; };
 		F58466FF1CD0D5ED007DC06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58466FD1CD0D5ED007DC06A /* LaunchScreen.storyboard */; };
-		F58467101CD0D6D5007DC06A /* DriverBooking.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58467091CD0D6D5007DC06A /* DriverBooking.xib */; };
-		F58467111CD0D6D5007DC06A /* FindDriver.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670A1CD0D6D5007DC06A /* FindDriver.xib */; };
-		F58467121CD0D6D5007DC06A /* HomeToWork.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670B1CD0D6D5007DC06A /* HomeToWork.xib */; };
-		F58467131CD0D6D5007DC06A /* PassengerBooking.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */; };
-		F58467141CD0D6D5007DC06A /* SearchDriver.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670D1CD0D6D5007DC06A /* SearchDriver.xib */; };
-		F58467151CD0D6D5007DC06A /* TooLate.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670E1CD0D6D5007DC06A /* TooLate.xib */; };
-		F58467161CD0D6D5007DC06A /* WorkToHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = F584670F1CD0D6D5007DC06A /* WorkToHome.xib */; };
 		F584671A1CD0D787007DC06A /* DriverApproved.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58467191CD0D786007DC06A /* DriverApproved.xib */; };
 		F58467201CD0DA73007DC06A /* SFUIText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671C1CD0DA68007DC06A /* SFUIText-Bold.otf */; };
 		F58467211CD0DA75007DC06A /* SFUIText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671D1CD0DA68007DC06A /* SFUIText-Light.otf */; };
 		F58467221CD0DA77007DC06A /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671E1CD0DA68007DC06A /* SFUIText-Medium.otf */; };
 		F58467231CD0DA7A007DC06A /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F584671F1CD0DA68007DC06A /* SFUIText-Regular.otf */; };
-		F5AEA6761CD27E2500F69BD2 /* BuilderButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */; };
-		F5C394701CD13E2100493D1C /* DriverCancelled.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */; };
+		F5AEA6761CD27E2500F69BD2 /* BuilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AEA6751CD27E2500F69BD2 /* BuilderView.m */; };
+		F5AFB5AF1CD38E0B00EBB530 /* DriverBuilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5AE1CD38E0B00EBB530 /* DriverBuilderView.m */; };
+		F5AFB5B21CD38E3800EBB530 /* DriverApprovedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5B11CD38E3800EBB530 /* DriverApprovedView.m */; };
+		F5AFB5B51CD38E5500EBB530 /* DriverPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5B41CD38E5500EBB530 /* DriverPendingView.m */; };
+		F5AFB5B81CD38E6500EBB530 /* DriverNowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5B71CD38E6500EBB530 /* DriverNowView.m */; };
+		F5AFB5BB1CD38E8100EBB530 /* DriverCanceledOrFinishedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5BA1CD38E8100EBB530 /* DriverCanceledOrFinishedView.m */; };
+		F5AFB5C91CD3AF2D00EBB530 /* PassengerBookingXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5C81CD3AF2D00EBB530 /* PassengerBookingXibViewController.m */; };
+		F5AFB5CE1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5CB1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.m */; };
+		F5AFB5CF1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AFB5CD1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.m */; };
+		F5AFB5D21CD3AFAC00EBB530 /* HomeToWork.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AFB5D01CD3AFAC00EBB530 /* HomeToWork.xib */; };
+		F5AFB5D31CD3AFAC00EBB530 /* WorkToHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AFB5D11CD3AFAC00EBB530 /* WorkToHome.xib */; };
+		F5AFB5D61CD3AFDE00EBB530 /* DriverMainBook.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AFB5D41CD3AFDE00EBB530 /* DriverMainBook.xib */; };
+		F5AFB5D71CD3AFDE00EBB530 /* PaxMainBook.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AFB5D51CD3AFDE00EBB530 /* PaxMainBook.xib */; };
+		F5C394701CD13E2100493D1C /* DriverCanceled.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C3946F1CD13E2100493D1C /* DriverCanceled.xib */; };
 		F5C394741CD1468A00493D1C /* PaxNow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394731CD1468A00493D1C /* PaxNow.xib */; };
 		F5C394761CD146A400493D1C /* PaxApproved.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394751CD146A400493D1C /* PaxApproved.xib */; };
 		F5C394781CD1488700493D1C /* PaxPending.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C394771CD1488700493D1C /* PaxPending.xib */; };
@@ -53,10 +54,6 @@
 		F505564E1CD13A990048C1E8 /* DriverNow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverNow.xib; path = Views/XIBs/DriverXibs/DriverNow.xib; sourceTree = "<group>"; };
 		F57F98951CD2036A003C8F07 /* PaxRequestTo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxRequestTo.xib; path = Views/XIBs/PaxXibs/PaxRequestTo.xib; sourceTree = "<group>"; };
 		F57F98971CD2044F003C8F07 /* PaxTooLate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxTooLate.xib; path = Views/XIBs/PaxXibs/PaxTooLate.xib; sourceTree = "<group>"; };
-		F57F98991CD204DF003C8F07 /* PassengerBookingXibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibTableViewCell.h; path = Views/PassengerBookingXibTableViewCell.h; sourceTree = "<group>"; };
-		F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibTableViewCell.m; path = Views/PassengerBookingXibTableViewCell.m; sourceTree = "<group>"; };
-		F57F989B1CD204DF003C8F07 /* PassengerBookingXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibViewController.h; path = Views/PassengerBookingXibViewController.h; sourceTree = "<group>"; };
-		F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibViewController.m; path = Views/PassengerBookingXibViewController.m; sourceTree = "<group>"; };
 		F57F98A11CD20680003C8F07 /* PaxApprovedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxApprovedView.h; path = Views/PaxViews/PaxApprovedView.h; sourceTree = "<group>"; };
 		F57F98A21CD20680003C8F07 /* PaxApprovedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxApprovedView.m; path = Views/PaxViews/PaxApprovedView.m; sourceTree = "<group>"; };
 		F57F98A41CD206A9003C8F07 /* PaxNowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxNowView.h; path = Views/PaxViews/PaxNowView.h; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 		F57F98B01CD20930003C8F07 /* PaxCanceledOrFinished.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxCanceledOrFinished.xib; path = Views/XIBs/PaxXibs/PaxCanceledOrFinished.xib; sourceTree = "<group>"; };
 		F57F98B21CD20A3E003C8F07 /* PaxCanceledOrFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaxCanceledOrFinishedView.h; path = Views/PaxViews/PaxCanceledOrFinishedView.h; sourceTree = "<group>"; };
 		F57F98B31CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaxCanceledOrFinishedView.m; path = Views/PaxViews/PaxCanceledOrFinishedView.m; sourceTree = "<group>"; };
-		F57F98B51CD2153C003C8F07 /* MainBook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainBook.xib; path = Views/XIBs/MainBook.xib; sourceTree = "<group>"; };
 		F57F98B71CD23499003C8F07 /* HomeToWorkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeToWorkView.h; path = Views/HomeToWorkView.h; sourceTree = "<group>"; };
 		F57F98B81CD23499003C8F07 /* HomeToWorkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeToWorkView.m; path = Views/HomeToWorkView.m; sourceTree = "<group>"; };
 		F57F98BA1CD234C8003C8F07 /* WorkToHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkToHomeView.h; path = Views/WorkToHomeView.h; sourceTree = "<group>"; };
@@ -79,27 +75,38 @@
 		F58466F01CD0D5ED007DC06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58466F21CD0D5ED007DC06A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58466F31CD0D5ED007DC06A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F58466F51CD0D5ED007DC06A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F58466F61CD0D5ED007DC06A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F58466F91CD0D5ED007DC06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58466FB1CD0D5ED007DC06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58466FE1CD0D5ED007DC06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58467001CD0D5ED007DC06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F58467091CD0D6D5007DC06A /* DriverBooking.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverBooking.xib; path = Views/XIBs/Unuable/DriverBooking.xib; sourceTree = "<group>"; };
-		F584670A1CD0D6D5007DC06A /* FindDriver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FindDriver.xib; path = Views/XIBs/Unuable/FindDriver.xib; sourceTree = "<group>"; };
-		F584670B1CD0D6D5007DC06A /* HomeToWork.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeToWork.xib; path = Views/XIBs/Unuable/HomeToWork.xib; sourceTree = "<group>"; };
-		F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PassengerBooking.xib; path = Views/XIBs/Unuable/PassengerBooking.xib; sourceTree = "<group>"; };
-		F584670D1CD0D6D5007DC06A /* SearchDriver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchDriver.xib; path = Views/XIBs/Unuable/SearchDriver.xib; sourceTree = "<group>"; };
-		F584670E1CD0D6D5007DC06A /* TooLate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TooLate.xib; path = Views/XIBs/Unuable/TooLate.xib; sourceTree = "<group>"; };
-		F584670F1CD0D6D5007DC06A /* WorkToHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkToHome.xib; path = Views/XIBs/Unuable/WorkToHome.xib; sourceTree = "<group>"; };
 		F58467191CD0D786007DC06A /* DriverApproved.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverApproved.xib; path = Views/XIBs/DriverXibs/DriverApproved.xib; sourceTree = "<group>"; };
 		F584671C1CD0DA68007DC06A /* SFUIText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Bold.otf"; path = "Fonts/SFUIText-Bold.otf"; sourceTree = "<group>"; };
 		F584671D1CD0DA68007DC06A /* SFUIText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Light.otf"; path = "Fonts/SFUIText-Light.otf"; sourceTree = "<group>"; };
 		F584671E1CD0DA68007DC06A /* SFUIText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Medium.otf"; path = "Fonts/SFUIText-Medium.otf"; sourceTree = "<group>"; };
 		F584671F1CD0DA68007DC06A /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Regular.otf"; path = "Fonts/SFUIText-Regular.otf"; sourceTree = "<group>"; };
-		F5AEA6741CD27E2500F69BD2 /* BuilderButtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuilderButtomView.h; path = Views/PaxViews/BottomViewBuilder/BuilderButtomView.h; sourceTree = "<group>"; };
-		F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuilderButtomView.m; path = Views/PaxViews/BottomViewBuilder/BuilderButtomView.m; sourceTree = "<group>"; };
-		F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverCancelled.xib; path = Views/XIBs/DriverXibs/DriverCancelled.xib; sourceTree = "<group>"; };
+		F5AEA6741CD27E2500F69BD2 /* BuilderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuilderView.h; path = Views/PaxViews/BottomViewBuilder/BuilderView.h; sourceTree = "<group>"; };
+		F5AEA6751CD27E2500F69BD2 /* BuilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuilderView.m; path = Views/PaxViews/BottomViewBuilder/BuilderView.m; sourceTree = "<group>"; };
+		F5AFB5AD1CD38E0B00EBB530 /* DriverBuilderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverBuilderView.h; path = Views/DriverViews/DriverViewBuilder/DriverBuilderView.h; sourceTree = "<group>"; };
+		F5AFB5AE1CD38E0B00EBB530 /* DriverBuilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverBuilderView.m; path = Views/DriverViews/DriverViewBuilder/DriverBuilderView.m; sourceTree = "<group>"; };
+		F5AFB5B01CD38E3800EBB530 /* DriverApprovedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverApprovedView.h; path = Views/DriverViews/DriverApprovedView.h; sourceTree = "<group>"; };
+		F5AFB5B11CD38E3800EBB530 /* DriverApprovedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverApprovedView.m; path = Views/DriverViews/DriverApprovedView.m; sourceTree = "<group>"; };
+		F5AFB5B31CD38E5500EBB530 /* DriverPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverPendingView.h; path = Views/DriverViews/DriverPendingView.h; sourceTree = "<group>"; };
+		F5AFB5B41CD38E5500EBB530 /* DriverPendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverPendingView.m; path = Views/DriverViews/DriverPendingView.m; sourceTree = "<group>"; };
+		F5AFB5B61CD38E6500EBB530 /* DriverNowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverNowView.h; path = Views/DriverViews/DriverNowView.h; sourceTree = "<group>"; };
+		F5AFB5B71CD38E6500EBB530 /* DriverNowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverNowView.m; path = Views/DriverViews/DriverNowView.m; sourceTree = "<group>"; };
+		F5AFB5B91CD38E8100EBB530 /* DriverCanceledOrFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverCanceledOrFinishedView.h; path = Views/DriverViews/DriverCanceledOrFinishedView.h; sourceTree = "<group>"; };
+		F5AFB5BA1CD38E8100EBB530 /* DriverCanceledOrFinishedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverCanceledOrFinishedView.m; path = Views/DriverViews/DriverCanceledOrFinishedView.m; sourceTree = "<group>"; };
+		F5AFB5C71CD3AF2D00EBB530 /* PassengerBookingXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibViewController.h; path = BookingControllers/PassengerBookingXibViewController.h; sourceTree = "<group>"; };
+		F5AFB5C81CD3AF2D00EBB530 /* PassengerBookingXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibViewController.m; path = BookingControllers/PassengerBookingXibViewController.m; sourceTree = "<group>"; };
+		F5AFB5CA1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverBookingXibTableViewCell.h; path = Views/BookingsCells/DriverBookingXibTableViewCell.h; sourceTree = "<group>"; };
+		F5AFB5CB1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverBookingXibTableViewCell.m; path = Views/BookingsCells/DriverBookingXibTableViewCell.m; sourceTree = "<group>"; };
+		F5AFB5CC1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerBookingXibTableViewCell.h; path = Views/BookingsCells/PassengerBookingXibTableViewCell.h; sourceTree = "<group>"; };
+		F5AFB5CD1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerBookingXibTableViewCell.m; path = Views/BookingsCells/PassengerBookingXibTableViewCell.m; sourceTree = "<group>"; };
+		F5AFB5D01CD3AFAC00EBB530 /* HomeToWork.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeToWork.xib; path = Views/XIBs/HomeToWork.xib; sourceTree = "<group>"; };
+		F5AFB5D11CD3AFAC00EBB530 /* WorkToHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkToHome.xib; path = Views/XIBs/WorkToHome.xib; sourceTree = "<group>"; };
+		F5AFB5D41CD3AFDE00EBB530 /* DriverMainBook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverMainBook.xib; path = Views/XIBs/MainXIBs/DriverMainBook.xib; sourceTree = "<group>"; };
+		F5AFB5D51CD3AFDE00EBB530 /* PaxMainBook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxMainBook.xib; path = Views/XIBs/MainXIBs/PaxMainBook.xib; sourceTree = "<group>"; };
+		F5C3946F1CD13E2100493D1C /* DriverCanceled.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverCanceled.xib; path = Views/XIBs/DriverXibs/DriverCanceled.xib; sourceTree = "<group>"; };
 		F5C394731CD1468A00493D1C /* PaxNow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxNow.xib; path = Views/XIBs/PaxXibs/PaxNow.xib; sourceTree = "<group>"; };
 		F5C394751CD146A400493D1C /* PaxApproved.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxApproved.xib; path = Views/XIBs/PaxXibs/PaxApproved.xib; sourceTree = "<group>"; };
 		F5C394771CD1488700493D1C /* PaxPending.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaxPending.xib; path = Views/XIBs/PaxXibs/PaxPending.xib; sourceTree = "<group>"; };
@@ -119,8 +126,8 @@
 		F57F989F1CD20529003C8F07 /* BookingControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F57F989B1CD204DF003C8F07 /* PassengerBookingXibViewController.h */,
-				F57F989C1CD204DF003C8F07 /* PassengerBookingXibViewController.m */,
+				F5AFB5C71CD3AF2D00EBB530 /* PassengerBookingXibViewController.h */,
+				F5AFB5C81CD3AF2D00EBB530 /* PassengerBookingXibViewController.m */,
 			);
 			name = BookingControllers;
 			sourceTree = "<group>";
@@ -128,7 +135,7 @@
 		F57F98A01CD2064A003C8F07 /* PaxViews */ = {
 			isa = PBXGroup;
 			children = (
-				F5AEA6701CD27D6000F69BD2 /* BottomViewBuilder */,
+				F5AEA6701CD27D6000F69BD2 /* PaxViewBuilder */,
 				F57F98A11CD20680003C8F07 /* PaxApprovedView.h */,
 				F57F98A21CD20680003C8F07 /* PaxApprovedView.m */,
 				F57F98A41CD206A9003C8F07 /* PaxNowView.h */,
@@ -169,8 +176,6 @@
 				F58467061CD0D6B8007DC06A /* Views */,
 				F58466F21CD0D5ED007DC06A /* AppDelegate.h */,
 				F58466F31CD0D5ED007DC06A /* AppDelegate.m */,
-				F58466F51CD0D5ED007DC06A /* ViewController.h */,
-				F58466F61CD0D5ED007DC06A /* ViewController.m */,
 				F58466F81CD0D5ED007DC06A /* Main.storyboard */,
 				F58466FB1CD0D5ED007DC06A /* Assets.xcassets */,
 				F58466FD1CD0D5ED007DC06A /* LaunchScreen.storyboard */,
@@ -191,14 +196,14 @@
 		F58467061CD0D6B8007DC06A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5AFB5C51CD3AEBF00EBB530 /* BookingsCells */,
+				F5AFB5AB1CD38DC000EBB530 /* DriverViews */,
 				F57F98A01CD2064A003C8F07 /* PaxViews */,
-				F57F98991CD204DF003C8F07 /* PassengerBookingXibTableViewCell.h */,
-				F57F989A1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m */,
+				F58467071CD0D6C0007DC06A /* XIBs */,
 				F57F98B71CD23499003C8F07 /* HomeToWorkView.h */,
 				F57F98B81CD23499003C8F07 /* HomeToWorkView.m */,
 				F57F98BA1CD234C8003C8F07 /* WorkToHomeView.h */,
 				F57F98BB1CD234C8003C8F07 /* WorkToHomeView.m */,
-				F58467071CD0D6C0007DC06A /* XIBs */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -206,26 +211,13 @@
 		F58467071CD0D6C0007DC06A /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				F5AFB5D01CD3AFAC00EBB530 /* HomeToWork.xib */,
+				F5AFB5D11CD3AFAC00EBB530 /* WorkToHome.xib */,
+				F5AFB5C61CD3AEE400EBB530 /* MainXIBs */,
 				F58467181CD0D764007DC06A /* PaxXibs */,
 				F58467171CD0D75A007DC06A /* DriverXibs */,
-				F58467081CD0D6C8007DC06A /* Unusable */,
-				F57F98B51CD2153C003C8F07 /* MainBook.xib */,
-				F584670B1CD0D6D5007DC06A /* HomeToWork.xib */,
-				F584670F1CD0D6D5007DC06A /* WorkToHome.xib */,
 			);
 			name = XIBs;
-			sourceTree = "<group>";
-		};
-		F58467081CD0D6C8007DC06A /* Unusable */ = {
-			isa = PBXGroup;
-			children = (
-				F58467091CD0D6D5007DC06A /* DriverBooking.xib */,
-				F584670A1CD0D6D5007DC06A /* FindDriver.xib */,
-				F584670C1CD0D6D5007DC06A /* PassengerBooking.xib */,
-				F584670D1CD0D6D5007DC06A /* SearchDriver.xib */,
-				F584670E1CD0D6D5007DC06A /* TooLate.xib */,
-			);
-			name = Unusable;
 			sourceTree = "<group>";
 		};
 		F58467171CD0D75A007DC06A /* DriverXibs */ = {
@@ -234,7 +226,7 @@
 				F58467191CD0D786007DC06A /* DriverApproved.xib */,
 				F505564C1CD12E9A0048C1E8 /* DriverPending.xib */,
 				F505564E1CD13A990048C1E8 /* DriverNow.xib */,
-				F5C3946F1CD13E2100493D1C /* DriverCancelled.xib */,
+				F5C3946F1CD13E2100493D1C /* DriverCanceled.xib */,
 			);
 			name = DriverXibs;
 			sourceTree = "<group>";
@@ -263,13 +255,58 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		F5AEA6701CD27D6000F69BD2 /* BottomViewBuilder */ = {
+		F5AEA6701CD27D6000F69BD2 /* PaxViewBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				F5AEA6741CD27E2500F69BD2 /* BuilderButtomView.h */,
-				F5AEA6751CD27E2500F69BD2 /* BuilderButtomView.m */,
+				F5AEA6741CD27E2500F69BD2 /* BuilderView.h */,
+				F5AEA6751CD27E2500F69BD2 /* BuilderView.m */,
 			);
-			name = BottomViewBuilder;
+			name = PaxViewBuilder;
+			sourceTree = "<group>";
+		};
+		F5AFB5AB1CD38DC000EBB530 /* DriverViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFB5AC1CD38DD500EBB530 /* DriverViewBuilder */,
+				F5AFB5B01CD38E3800EBB530 /* DriverApprovedView.h */,
+				F5AFB5B11CD38E3800EBB530 /* DriverApprovedView.m */,
+				F5AFB5B31CD38E5500EBB530 /* DriverPendingView.h */,
+				F5AFB5B41CD38E5500EBB530 /* DriverPendingView.m */,
+				F5AFB5B61CD38E6500EBB530 /* DriverNowView.h */,
+				F5AFB5B71CD38E6500EBB530 /* DriverNowView.m */,
+				F5AFB5B91CD38E8100EBB530 /* DriverCanceledOrFinishedView.h */,
+				F5AFB5BA1CD38E8100EBB530 /* DriverCanceledOrFinishedView.m */,
+			);
+			name = DriverViews;
+			sourceTree = "<group>";
+		};
+		F5AFB5AC1CD38DD500EBB530 /* DriverViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFB5AD1CD38E0B00EBB530 /* DriverBuilderView.h */,
+				F5AFB5AE1CD38E0B00EBB530 /* DriverBuilderView.m */,
+			);
+			name = DriverViewBuilder;
+			sourceTree = "<group>";
+		};
+		F5AFB5C51CD3AEBF00EBB530 /* BookingsCells */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFB5CA1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.h */,
+				F5AFB5CB1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.m */,
+				F5AFB5CC1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.h */,
+				F5AFB5CD1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.m */,
+			);
+			name = BookingsCells;
+			sourceTree = "<group>";
+		};
+		F5AFB5C61CD3AEE400EBB530 /* MainXIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFB5D41CD3AFDE00EBB530 /* DriverMainBook.xib */,
+				F5AFB5D51CD3AFDE00EBB530 /* PaxMainBook.xib */,
+			);
+			name = MainXIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,28 +369,24 @@
 				F5C394781CD1488700493D1C /* PaxPending.xib in Resources */,
 				F58467221CD0DA77007DC06A /* SFUIText-Medium.otf in Resources */,
 				F58466FF1CD0D5ED007DC06A /* LaunchScreen.storyboard in Resources */,
-				F58467111CD0D6D5007DC06A /* FindDriver.xib in Resources */,
 				F505564D1CD12E9A0048C1E8 /* DriverPending.xib in Resources */,
 				F57F98B11CD20930003C8F07 /* PaxCanceledOrFinished.xib in Resources */,
 				F58467201CD0DA73007DC06A /* SFUIText-Bold.otf in Resources */,
-				F58467121CD0D6D5007DC06A /* HomeToWork.xib in Resources */,
-				F58467141CD0D6D5007DC06A /* SearchDriver.xib in Resources */,
 				F5C394741CD1468A00493D1C /* PaxNow.xib in Resources */,
 				F58467211CD0DA75007DC06A /* SFUIText-Light.otf in Resources */,
+				F5AFB5D71CD3AFDE00EBB530 /* PaxMainBook.xib in Resources */,
 				F57F98981CD2044F003C8F07 /* PaxTooLate.xib in Resources */,
 				F57F98961CD2036A003C8F07 /* PaxRequestTo.xib in Resources */,
-				F58467151CD0D6D5007DC06A /* TooLate.xib in Resources */,
 				F58466FC1CD0D5ED007DC06A /* Assets.xcassets in Resources */,
-				F58467131CD0D6D5007DC06A /* PassengerBooking.xib in Resources */,
-				F5C394701CD13E2100493D1C /* DriverCancelled.xib in Resources */,
+				F5C394701CD13E2100493D1C /* DriverCanceled.xib in Resources */,
+				F5AFB5D31CD3AFAC00EBB530 /* WorkToHome.xib in Resources */,
 				F58466FA1CD0D5ED007DC06A /* Main.storyboard in Resources */,
 				F5C394761CD146A400493D1C /* PaxApproved.xib in Resources */,
-				F57F98B61CD2153C003C8F07 /* MainBook.xib in Resources */,
+				F5AFB5D61CD3AFDE00EBB530 /* DriverMainBook.xib in Resources */,
 				F58467231CD0DA7A007DC06A /* SFUIText-Regular.otf in Resources */,
-				F58467161CD0D6D5007DC06A /* WorkToHome.xib in Resources */,
 				F505564F1CD13A990048C1E8 /* DriverNow.xib in Resources */,
+				F5AFB5D21CD3AFAC00EBB530 /* HomeToWork.xib in Resources */,
 				F584671A1CD0D787007DC06A /* DriverApproved.xib in Resources */,
-				F58467101CD0D6D5007DC06A /* DriverBooking.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,15 +397,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57F989D1CD204DF003C8F07 /* PassengerBookingXibTableViewCell.m in Sources */,
+				F5AFB5CF1CD3AF6600EBB530 /* PassengerBookingXibTableViewCell.m in Sources */,
+				F5AFB5B81CD38E6500EBB530 /* DriverNowView.m in Sources */,
 				F57F98B91CD23499003C8F07 /* HomeToWorkView.m in Sources */,
-				F57F989E1CD204DF003C8F07 /* PassengerBookingXibViewController.m in Sources */,
-				F5AEA6761CD27E2500F69BD2 /* BuilderButtomView.m in Sources */,
-				F58466F71CD0D5ED007DC06A /* ViewController.m in Sources */,
+				F5AEA6761CD27E2500F69BD2 /* BuilderView.m in Sources */,
 				F58466F41CD0D5ED007DC06A /* AppDelegate.m in Sources */,
 				F57F98BC1CD234C8003C8F07 /* WorkToHomeView.m in Sources */,
+				F5AFB5C91CD3AF2D00EBB530 /* PassengerBookingXibViewController.m in Sources */,
 				F57F98A91CD206DE003C8F07 /* PaxPendingView.m in Sources */,
+				F5AFB5CE1CD3AF6600EBB530 /* DriverBookingXibTableViewCell.m in Sources */,
+				F5AFB5BB1CD38E8100EBB530 /* DriverCanceledOrFinishedView.m in Sources */,
+				F5AFB5B21CD38E3800EBB530 /* DriverApprovedView.m in Sources */,
 				F57F98AF1CD20705003C8F07 /* PaxTooLateView.m in Sources */,
+				F5AFB5AF1CD38E0B00EBB530 /* DriverBuilderView.m in Sources */,
+				F5AFB5B51CD38E5500EBB530 /* DriverPendingView.m in Sources */,
 				F57F98AC1CD206F0003C8F07 /* PaxRequestToView.m in Sources */,
 				F57F98B41CD20A3E003C8F07 /* PaxCanceledOrFinishedView.m in Sources */,
 				F58466F11CD0D5ED007DC06A /* main.m in Sources */,

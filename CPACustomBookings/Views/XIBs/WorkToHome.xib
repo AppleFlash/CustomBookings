@@ -11,21 +11,21 @@
             <rect key="frame" x="0.0" y="0.0" width="84" height="45"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RL9-f4-RW9">
+                    <rect key="frame" x="0.0" y="14" width="25" height="17"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="ob5-uC-FzA"/>
+                        <constraint firstAttribute="height" constant="17" id="qRS-7B-NPG"/>
+                    </constraints>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="87t-o8-h5H">
                     <rect key="frame" x="59" y="10" width="25" height="25"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="tintColor" red="0.67612206375838924" green="0.0" blue="0.0" alpha="0.0" colorSpace="deviceRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="68p-uy-R5K"/>
                         <constraint firstAttribute="width" constant="25" id="G4o-v2-1N3"/>
-                    </constraints>
-                </imageView>
-                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RL9-f4-RW9">
-                    <rect key="frame" x="0.0" y="14" width="25" height="17"/>
-                    <color key="backgroundColor" red="0.1058823529" green="0.81960784310000001" blue="0.02589937824295304" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="25" id="ob5-uC-FzA"/>
-                        <constraint firstAttribute="height" constant="17" id="qRS-7B-NPG"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4eX-hc-cE4">
