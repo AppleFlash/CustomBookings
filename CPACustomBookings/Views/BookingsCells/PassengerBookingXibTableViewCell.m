@@ -46,9 +46,11 @@
             
             requestView = [[NSBundle mainBundle] loadNibNamed:@"PaxRequestTo" owner:self options:nil][0];
             [requestView setTranslatesAutoresizingMaskIntoConstraints:NO];
+            [self setBuilderBottomView:requestView];
             [self.mainCell addSubview:requestView];
             [self addConstraintToView:requestView];
             break;
+            
         case PassengerCellTypePending:
             
             pendingView = [[NSBundle mainBundle] loadNibNamed:@"PaxPending" owner:self options:nil][0];
